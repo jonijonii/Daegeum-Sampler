@@ -43,10 +43,15 @@ Example: Archive.zip -> Daegeum_Sanjo.dslibrary
 Import: Open the Decent Sampler app (iOS or Desktop) and load the .dslibrary file.
 
 🎛 Controls
+
 Reverb: Adjusts the spatial depth and hall ambience.
+
 Attack: Controls the onset speed.
+
 Default is set to 0.001s for instant response.
+
 Release: Sets the fade-out duration after the key is released.
+
 Tone: Adjusts the brightness of the sound (Low-pass Filter).
 
 🤝 Credits & Sources
