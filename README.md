@@ -19,8 +19,11 @@ Retina UI Support: High-resolution custom UI generated programmatically using Pi
 
 🛠 Tech Stack
 Python 3.x
+
 Librosa: Audio signal processing & precision trimming.
+
 Pandas & NumPy: Waveform envelope analysis.
+
 Pillow (PIL): High-resolution UI generation & text rendering.
 
 🚀 Installation (How to use)
@@ -43,7 +46,6 @@ Example: Archive.zip -> Daegeum_Sanjo.dslibrary
 Import: Open the Decent Sampler app (iOS or Desktop) and load the .dslibrary file.
 
 🎛 Controls
-
 Reverb: Adjusts the spatial depth and hall ambience.
 
 Attack: Controls the onset speed.
@@ -55,6 +57,8 @@ Release: Sets the fade-out duration after the key is released.
 Tone: Adjusts the brightness of the sound (Low-pass Filter).
 
 🤝 Credits & Sources
-Original Audio & Image Source: National Gugak Center ([국립국악원](https://www.gugak.go.kr/))
+Original Audio & Image Source: National Gugak Center (국립국악원)https://www.gugak.go.kr/
+
 Developed by: jonijonii
-Assisted by: Gemini
+
+Assisted by: Gemini Pro 3
