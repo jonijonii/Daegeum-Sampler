@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler minVersion="1.0.0">
+  <ui width="1024" height="320" bgImage="Skin_Daegeum_Retina.jpg" layoutMode="relative" bgMode="top_left">
+    <tab name="main">
+      <labeled-knob x="450" y="35" width="90" textSize="16" textColor="AA000000" label="Reverb" type="float" minValue="0.0" maxValue="1.0" value="0.3">
+        <binding type="effect" level="instrument" position="0" parameter="FX_REVERB_WET_LEVEL" />
+      </labeled-knob>
+      
+      <labeled-knob x="560" y="35" width="90" textSize="16" textColor="AA000000" label="Attack" type="float" minValue="0.0" maxValue="2.0" value="0.001">
+        <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+      </labeled-knob>
+      
+      <labeled-knob x="670" y="35" width="90" textSize="16" textColor="AA000000" label="Release" type="float" minValue="0.0" maxValue="3.0" value="0.8">
+        <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+      </labeled-knob>
+
+       <labeled-knob x="780" y="35" width="90" textSize="16" textColor="AA000000" label="Tone" type="float" minValue="0.0" maxValue="1.0" value="1.0">
+        <binding type="effect" level="instrument" position="1" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.5,500;1.0,22000"/>
+      </labeled-knob>
+    </tab>
+  </ui>
+
+  <groups>
+    <group>
+    <sample path="Daegeum_Final_Samples/Daegeum_C4.wav" rootNote="60" loNote="60" hiNote="60" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_C4.wav" rootNote="60" loNote="61" hiNote="61" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_D#4.wav" rootNote="63" loNote="62" hiNote="62" pitch="-1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_D#4.wav" rootNote="63" loNote="63" hiNote="63" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_D#4.wav" rootNote="63" loNote="64" hiNote="64" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_F4.wav" rootNote="65" loNote="65" hiNote="65" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_F#4.wav" rootNote="66" loNote="66" hiNote="66" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_F#4.wav" rootNote="66" loNote="67" hiNote="67" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_G#4.wav" rootNote="68" loNote="68" hiNote="68" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_G#4.wav" rootNote="68" loNote="69" hiNote="69" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_A#4.wav" rootNote="70" loNote="70" hiNote="70" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_B4.wav" rootNote="71" loNote="71" hiNote="71" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_C5.wav" rootNote="72" loNote="72" hiNote="72" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_C5.wav" rootNote="72" loNote="73" hiNote="73" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_D#5.wav" rootNote="75" loNote="74" hiNote="74" pitch="-1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_D#5.wav" rootNote="75" loNote="75" hiNote="75" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_D#5.wav" rootNote="75" loNote="76" hiNote="76" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_F5.wav" rootNote="77" loNote="77" hiNote="77" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_F#5.wav" rootNote="78" loNote="78" hiNote="78" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_F#5.wav" rootNote="78" loNote="79" hiNote="79" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_G#5.wav" rootNote="80" loNote="80" hiNote="80" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_G#5.wav" rootNote="80" loNote="81" hiNote="81" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_A#5.wav" rootNote="82" loNote="82" hiNote="82" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_B5.wav" rootNote="83" loNote="83" hiNote="83" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_C6.wav" rootNote="84" loNote="84" hiNote="84" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_C6.wav" rootNote="84" loNote="85" hiNote="85" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_D6.wav" rootNote="86" loNote="86" hiNote="86" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_D6.wav" rootNote="86" loNote="87" hiNote="87" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_E6.wav" rootNote="88" loNote="88" hiNote="88" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_E6.wav" rootNote="88" loNote="89" hiNote="89" pitch="1" />
+    <sample path="Daegeum_Final_Samples/Daegeum_F#6.wav" rootNote="90" loNote="90" hiNote="90" pitch="0" />
+    <sample path="Daegeum_Final_Samples/Daegeum_F#6.wav" rootNote="90" loNote="91" hiNote="91" pitch="1" />
+    </group>
+  </groups>
+
+  <effects>
+    <effect type="reverb" wetLevel="0.3" roomSize="0.6" damping="0.4" />
+    <effect type="lowpass" frequency="22000.0" resonance="0.7" />
+  </effects>
+</DecentSampler>
