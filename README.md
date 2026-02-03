@@ -25,13 +25,21 @@ Pillow (PIL): High-resolution UI generation & text rendering.
 
 🚀 Installation (How to use)
 To use this library in Decent Sampler, follow these steps to create a .dslibrary file:
+
 Download Files: Download the following three items from this repository:
+
 📂 Folder: Daegeum_Final_Samples
+
 📄 File: Daegeum_Sanjo_Final.dspreset
+
 🖼️ Image: Skin_Daegeum_Retina.jpg
+
 Zip: Select these three items and compress them into a single ZIP file.
+
 Rename: Change the file extension from .zip to .dslibrary.
+
 Example: Archive.zip -> Daegeum_Sanjo.dslibrary
+
 Import: Open the Decent Sampler app (iOS or Desktop) and load the .dslibrary file.
 
 🎛 Controls
